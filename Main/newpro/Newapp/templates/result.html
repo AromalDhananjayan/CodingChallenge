@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check User Result</title>
+</head>
+<body>
+    <p>Cityname: {{ Cityname }}</p>
+    {% if exists_in_db %}
+        <p>Done</p>
+    {% else %}
+        <p>Error</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,6 @@
+<h1>Input the cityname then press submit button</h1>
+<form method="post">
+    {% csrf_token %}
+    Cityname: <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
